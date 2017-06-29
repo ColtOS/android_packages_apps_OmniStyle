@@ -22,13 +22,9 @@ assets/<tag>.xml
 ```
 
 hour_header - display image if hour is larger then value
-
 day_header - display image on this day and hour - will overrule hour header
-
 random_header - choose a random image from the image list
-
 list_header - sequential iterate over the image list
-
 change_interval - change interval in minutes - default interval is one hour
 only valid in random or sequential mode
 
@@ -66,30 +62,3 @@ to fit and cropped as necessary.
 Images are drawn behind quickbar in collapsed state so you 
 should avoid to use too bright colors in that area else
 the quickbar images will become hard to see.
-
-## Contributors ##
-+ Travis Hall
-+ Syed Sajid
-
-TODO
------
-Show pack properties like type (random, list, time context) and change interval
-when selecting
-
-Omni wallpapers
------
-Using Picasso
-http://square.github.io/picasso/
-
-## Contributors ##
-+ JP Kenji
-+ PartimusPrime
-
-## Contributing wallpapers ##
-Put images files into drawable-nodpi
-```xml
-assets/wallpaper.xml
-```
-```xml
-    <wallpaper image="wall_name" creator="optional creator name" />
-```
